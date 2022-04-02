@@ -9,19 +9,19 @@ namespace Animal
     // class Birds inherit from Animal as parent class. ILegsNum,IFly  as interfaces
     public class Birds : Animal,ILegsNum,IFly 
     {
-        public override void Eat()
+        public override string Eat()
         {
-            Console.WriteLine("we are birds we eat meat and vegetables");
+            return "we are birds we eat meat and vegetables";
         }
         // <interface>
-        public void LegsNum()
+        public string LegsNum()
         {
-            Console.WriteLine("I have two legs");
+            return "I have two legs";
         }
         // <interface>
-        public void Fly()
+        public string Fly()
         {
-            Console.WriteLine("i can fly");
+            return "i can fly";
         }
         public abstract class Preybirds // abstraction
         {

@@ -8,6 +8,6 @@ namespace Animal
 {
     public interface ILegsNum
     {
-        void LegsNum();
+        string LegsNum();
     }
 }
