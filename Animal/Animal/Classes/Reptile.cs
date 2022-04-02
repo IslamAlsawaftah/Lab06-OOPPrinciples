@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Animal
-    {
+{
     // child reptile inherit from parent animal and i legs num interface    
-     public class Reptile : Animal, ILegsNum
+    public class Reptile : Animal
     {
         public new string Sound()
         {
@@ -27,7 +27,7 @@ namespace Animal
         {
             public new string Sound()
             {
-               return "im a lizard, my sound is hissing,";
+                return "im a lizard, my sound is hissing,";
             }
             public new string Tail()
             {

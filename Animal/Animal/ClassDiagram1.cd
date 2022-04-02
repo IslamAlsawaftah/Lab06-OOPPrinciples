@@ -6,7 +6,17 @@
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
     <NestedTypes>
-      <Class Name="Animal.Birds.Preybirds" Collapsed="true">
+      <Class Name="Animal.Birds.Preybirds">
+        <Compartments>
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Class Name="Animal.Birds.Preybirds.Eagle">
+            <TypeIdentifier>
+              <NewMemberFileName>Classes\Birds.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+        </NestedTypes>
         <TypeIdentifier>
           <NewMemberFileName>Classes\Birds.cs</NewMemberFileName>
         </TypeIdentifier>
@@ -16,7 +26,6 @@
       <HashCode>AAAAAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
       <FileName>Classes\Birds.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Animal.Fish">
     <Position X="2.5" Y="3.5" Width="1.5" />
@@ -24,12 +33,12 @@
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
     <NestedTypes>
-      <Class Name="Animal.Fish.Whale" Collapsed="true">
+      <Class Name="Animal.Fish.Whale">
         <TypeIdentifier>
           <NewMemberFileName>Classes\Fish.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="Animal.Fish.BlueWhale" Collapsed="true">
+      <Class Name="Animal.Fish.BlueWhale">
         <TypeIdentifier>
           <NewMemberFileName>Classes\Fish.cs</NewMemberFileName>
         </TypeIdentifier>
@@ -46,7 +55,22 @@
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
     <NestedTypes>
-      <Class Name="Animal.Insects.FlyingBugs" Collapsed="true">
+      <Class Name="Animal.Insects.FlyingBugs">
+        <Compartments>
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Class Name="Animal.Insects.FlyingBugs.Bee">
+            <TypeIdentifier>
+              <NewMemberFileName>Classes\Insects.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+          <Class Name="Animal.Insects.FlyingBugs.Flyingbee">
+            <TypeIdentifier>
+              <NewMemberFileName>Classes\Insects.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+        </NestedTypes>
         <TypeIdentifier>
           <NewMemberFileName>Classes\Insects.cs</NewMemberFileName>
         </TypeIdentifier>
@@ -56,7 +80,6 @@
       <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
       <FileName>Classes\Insects.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Animal.Mammals">
     <Position X="6.5" Y="3.5" Width="1.5" />
@@ -64,7 +87,7 @@
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
     <NestedTypes>
-      <Class Name="Animal.Mammals.BigCats" Collapsed="true">
+      <Class Name="Animal.Mammals.BigCats">
         <TypeIdentifier>
           <NewMemberFileName>Classes\Mammals.cs</NewMemberFileName>
         </TypeIdentifier>
@@ -81,7 +104,7 @@
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
     <NestedTypes>
-      <Class Name="Animal.Reptile.Lizard" Collapsed="true">
+      <Class Name="Animal.Reptile.Lizard">
         <TypeIdentifier>
           <NewMemberFileName>Classes\Reptile.cs</NewMemberFileName>
         </TypeIdentifier>
@@ -91,7 +114,6 @@
       <HashCode>AAAAAAgAEAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
       <FileName>Classes\Reptile.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Animal.Animal">
     <Position X="4.5" Y="0.5" Width="1.5" />
