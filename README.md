@@ -1,3 +1,3 @@
 ### Lab06-OOPPrinciples
 
-![](Animal/ClassDiagram1.jpg)
+![](Animal/ClassDiagram.jpg)
