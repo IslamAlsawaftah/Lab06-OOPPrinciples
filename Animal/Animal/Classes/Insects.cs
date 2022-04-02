@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Animal
 {
     // class child insects inherit from parent animal and i fly interface
-    public class Insects : Animal,IFly
+    public class Insects : Animal
     {
         public override string Eat()
         {
@@ -44,7 +44,7 @@ namespace Animal
             }
             // class flying bee inherit from parent bee
             public class Flyingbee : Bee
-            { 
+            {
                 private string name; // encapsulation
 
                 private int id;
@@ -58,7 +58,7 @@ namespace Animal
                     set
                     {
                         name = value;
-                   }
+                    }
                 }
                 public override int Id       // Declare abstract Id property:
                 {
