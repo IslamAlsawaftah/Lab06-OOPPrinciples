@@ -4,7 +4,7 @@
     <Position X="4.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAEQAAAAAAAAAAAAQAAACAAAAABAACAAAAAAA=</HashCode>
-      <FileName>Classes\Animals.cs</FileName>
+      <FileName>Animals.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Animal.Birds">
@@ -64,13 +64,16 @@
     </Compartments>
     <NestedTypes>
       <Class Name="Animal.Insects.FlyingBugs">
+        <Compartments>
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
         <NestedTypes>
-          <Class Name="Animal.Insects.FlyingBugs.Bee" Collapsed="true">
+          <Class Name="Animal.Insects.FlyingBugs.Bee">
             <TypeIdentifier>
               <NewMemberFileName>Classes\Insects.cs</NewMemberFileName>
             </TypeIdentifier>
           </Class>
-          <Class Name="Animal.Insects.FlyingBugs.Flyingbee" Collapsed="true">
+          <Class Name="Animal.Insects.FlyingBugs.Flyingbee">
             <TypeIdentifier>
               <NewMemberFileName>Classes\Insects.cs</NewMemberFileName>
             </TypeIdentifier>

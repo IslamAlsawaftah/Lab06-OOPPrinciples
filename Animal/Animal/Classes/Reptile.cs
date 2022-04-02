@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace Animal
 {
     // child reptile inherit from parent animal and i legs num interface    
-    public class Reptile : Animal,ILegsNum
+     class Reptile : Animal, ILegsNum
     {
-        public  void Sound()
+        public new void Sound()
         {
             Console.Write("we are reptile,");
         }
@@ -18,18 +18,18 @@ namespace Animal
             Console.WriteLine("we eat meat");
         }
         // <interface>
-        public void LegsNumFour()
+        public void LegsNum()
         {
             Console.WriteLine("I have four legs");
         }
         // child lizzard imhrit from parent reptile
         public class Lizard : Reptile
         {
-            public  void Sound()
+            public new void Sound()
             {
                 Console.Write("im a lizard, my sound is hissing,");
             }
-            public  void Tail()
+            public new void Tail()
             {
                 Console.WriteLine("i have tail");
             }

@@ -6,15 +6,8 @@ using System.Threading.Tasks;
 
 namespace Animal
 {
-    internal interface ILegsNum
+    public interface ILegsNum
     {
-        public void LegsNumFour()
-        {
-            Console.WriteLine("I have four legs");
-        }
-        public void LegsNumTWo()
-        {
-            Console.WriteLine("I have two legs");
-        }
+        void LegsNum();
     }
 }
