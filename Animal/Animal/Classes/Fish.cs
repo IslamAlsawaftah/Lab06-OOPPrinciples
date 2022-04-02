@@ -9,23 +9,23 @@ namespace Animal
     // class fish child inherit from animal parent class
     public class Fish : Animal
     {
-        public override void Eat()
+        public override string Eat()
         {
-            Console.WriteLine("we are fishes we eat meat");
+            return "we are fishes we eat meat";
         }
-        public new void Tail()
+        public new string Tail()
         {
-            Console.WriteLine("we have tail");
+            return "we have tail";
         }
         public abstract class Whale // abstraction
         {
-            public abstract void Color();
+            public abstract string Color();
         }
         public class BlueWhale : Whale // class child bluewhale inherit from parent whale  
         {
-            public override void Color()
+            public override string Color()
             {
-                Console.WriteLine("im whale my color is blue");
+               return "im whale my color is blue";
             }
   
         }

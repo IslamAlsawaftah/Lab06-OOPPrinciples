@@ -9,28 +9,28 @@ namespace Animal
     // class child insects inherit from parent animal and i fly interface
     public class Insects : Animal,IFly
     {
-        public override void Eat()
+        public override string Eat()
         {
-            Console.WriteLine("im bee i eat honey,");
+            return "im bee i eat honey,";
         }
         // <interface>
-        public void Fly()
+        public string Fly()
         {
-            Console.WriteLine("i can fly");
+            return "i can fly";
         }
         // child flyingbug inherit from insects
         public class FlyingBugs : Insects
         {
 
-            public new void Sound()
+            public new string Sound()
             {
                 base.Sound();
-                Console.WriteLine("buzzing");
+                return "buzzing";
             }
 
             public abstract class Bee
             {
-                public abstract void Weghit();
+                public abstract string Weghit();
                 public abstract string Name  //create abstract property Name
                 {
                     get; set;
@@ -72,9 +72,9 @@ namespace Animal
 
                     }
                 }
-                public override void Weghit()
+                public override string Weghit()
                 {
-                    Console.WriteLine("bee weghit is very weghit");
+                    return "bee weghit is very weghit";
                 }
             }
 

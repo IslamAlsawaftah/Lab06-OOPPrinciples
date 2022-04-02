@@ -5,33 +5,33 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Animal
-{
-    // child reptile inherit from parent animal and i legs num interface    
-     class Reptile : Animal, ILegsNum
     {
-        public new void Sound()
+    // child reptile inherit from parent animal and i legs num interface    
+     public class Reptile : Animal, ILegsNum
+    {
+        public new string Sound()
         {
-            Console.Write("we are reptile,");
+            return "we are reptile,";
         }
-        public override void Eat()
+        public override string Eat()
         {
-            Console.WriteLine("we eat meat");
+            return "we eat meat";
         }
         // <interface>
-        public void LegsNum()
+        public string LegsNum()
         {
-            Console.WriteLine("I have four legs");
+            return "I have four legs";
         }
         // child lizzard imhrit from parent reptile
         public class Lizard : Reptile
         {
-            public new void Sound()
+            public new string Sound()
             {
-                Console.Write("im a lizard, my sound is hissing,");
+               return "im a lizard, my sound is hissing,";
             }
-            public new void Tail()
+            public new string Tail()
             {
-                Console.WriteLine("i have tail");
+                return "i have tail";
             }
         }
     }

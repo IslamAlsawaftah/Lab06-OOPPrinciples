@@ -8,14 +8,14 @@ namespace Animal
 {
     public class Mammals : Animal // child class derived from parent animal
     {
-        public override void Sleep()
+        public override string Sleep()
         {
             base.Sleep();
-            Console.WriteLine(" 4 hours per day,");
+            return "4 hours per day,";
         }
-        public new void Tail()
+        public new string Tail()
         {
-            Console.WriteLine("im a mummal i have tail");
+            return "im a mummal i have tail";
         }
         public class BigCats : Mammals // child class derived from parent mammals
         {
@@ -37,17 +37,17 @@ namespace Animal
             {
                 this.name = Name;
             }
-            public override void Sleep()
+            public override string Sleep()
             {
-                Console.Write("i sleep 20 hour,");
+                return "i sleep 20 hour,";
             }
-            public  void Tail()
+            public new string Tail()
             {
-                Console.WriteLine("i have tail,");
+                return "i have tail,";
             }
-            public void LegsNumFour()
+            public string LegsNum()
             {
-                Console.WriteLine("I have four legs");
+                return "I have four legs";
             }
         }
     }

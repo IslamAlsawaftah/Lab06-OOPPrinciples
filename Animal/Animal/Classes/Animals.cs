@@ -13,21 +13,21 @@ namespace Animal
         public virtual int LivedYears { get; set; }
 
         // parent class methods which are going to be inherited, i used these methods among sun classes which result in polymorphism principle
-        public virtual void Eat()
+        public virtual string Eat()
         {
-            Console.Write("i eat a ");
+            return "i eat a ";
         }
-        public virtual void Sleep()
+        public virtual string Sleep()
         {
-            Console.Write("i sleep ");
+            return "i sleep ";
         }
-        public void Sound()
+        public string Sound()
         {
-            Console.Write("my sound is ");
+            return "my sound is ";
         }
-        public void Tail()
+        public string Tail()
         {
-            Console.Write("im an animal,");
+            return "im an animal,";
         }
     }
 }
