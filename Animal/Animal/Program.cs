@@ -14,7 +14,7 @@ namespace Animal
         {
            Birds birds = new Birds();
             birds.Eat();
-            birds.LegsNumTWo();
+            birds.LegsNum();
             birds.Fly();
             Console.WriteLine();
 
@@ -45,7 +45,7 @@ namespace Animal
             Reptile reptile = new Reptile();    
             reptile.Sound();
             reptile.Eat();
-            reptile.LegsNumFour();
+            reptile.LegsNum();
             Console.WriteLine();
 
             Lizard lizard = new Lizard();

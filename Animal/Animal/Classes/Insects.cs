@@ -44,8 +44,8 @@ namespace Animal
             }
             // class flying bee inherit from parent bee
             public class Flyingbee : Bee
-            {
-                private string name;
+            { 
+                private string name; // encapsulation
 
                 private int id;
                 public override string Name   // Declare abstract Name property:

@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Animal
 {
-    internal interface IFly
+    public interface IFly
     {
-        public void Fly()
-        {
-            Console.WriteLine("i can fly");
-        }
+         void Fly();
     }
 }

@@ -14,7 +14,7 @@ namespace Animal
             Console.WriteLine("we are birds we eat meat and vegetables");
         }
         // <interface>
-        public void LegsNumTWo()
+        public void LegsNum()
         {
             Console.WriteLine("I have two legs");
         }

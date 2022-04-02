@@ -12,7 +12,7 @@ namespace Animal
         public virtual string Name { get; set; } 
         public virtual int LivedYears { get; set; }
 
-        // parent class methods which are going to be inherited
+        // parent class methods which are going to be inherited, i used these methods among sun classes which result in polymorphism principle
         public virtual void Eat()
         {
             Console.Write("i eat a ");
