@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Animal
 {
     // class Birds inherit from Animal as parent class. ILegsNum,IFly  as interfaces
-    public class Birds : Animal
+    public class Birds : Animal,IFly,ILegsNum
     {
         public override string Eat()
         {
@@ -23,20 +23,20 @@ namespace Animal
         {
             return "i can fly";
         }
-        public abstract class Preybirds // abstraction
-        {
-            public abstract void EyeColor();
+        //public abstract class Preybirds:Birds // abstraction
+        //{
+        //    public abstract void EyeColor();
 
 
-            public class Eagle : Preybirds // class eagle child inhert form preybirds parent
-            {
-                public override void EyeColor()
-                {
-                    Console.WriteLine("eagle have sharpen eyes");
-                }
-            }
+        //    public class Eagle : Preybirds // class eagle child inhert form preybirds parent
+        //    {
+        //        public override void EyeColor()
+        //        {
+        //            Console.WriteLine("eagle have sharpen eyes");
+        //        }
+        //    }
 
 
-        }
+        //}
     }
 }

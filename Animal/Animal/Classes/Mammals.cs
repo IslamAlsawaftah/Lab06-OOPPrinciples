@@ -17,38 +17,38 @@ namespace Animal
         {
             return "im a mummal i have tail";
         }
-        public class BigCats : Mammals // child class derived from parent mammals
-        {
-            private string name;
+        //public class BigCats : Mammals,ILegsNum // child class derived from parent mammals
+        //{
+        //    private string name;
 
-            public override string Name   // Declare abstract Name property:
-            {
-                get
+        //    public override string Name   // Declare abstract Name property:
+        //    {
+        //        get
 
-                {
-                    return name;
-                }
-                set
-                {
-                    name = value;
-                }
-            }
-            public BigCats(string Name)
-            {
-                this.name = Name;
-            }
-            public override string Sleep()
-            {
-                return "i sleep 20 hour,";
-            }
-            public new string Tail()
-            {
-                return "i have tail,";
-            }
-            public string LegsNum()
-            {
-                return "I have four legs";
-            }
-        }
+        //        {
+        //            return name;
+        //        }
+        //        set
+        //        {
+        //            name = value;
+        //        }
+        //    }
+        //    public BigCats(string Name)
+        //    {
+        //        this.name = Name;
+        //    }
+        //    public override string Sleep()
+        //    {
+        //        return "i sleep 20 hour,";
+        //    }
+        //    public new string Tail()
+        //    {
+        //        return "i have tail,";
+        //    }
+        //    public string LegsNum()
+        //    {
+        //        return "I have four legs";
+        //    }
+        //}
     }
 }

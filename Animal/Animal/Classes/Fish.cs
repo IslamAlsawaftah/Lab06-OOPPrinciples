@@ -17,18 +17,18 @@ namespace Animal
         {
             return "we have tail";
         }
-        public abstract class Whale // abstraction
-        {
-            public abstract string Color();
-        }
-        public class BlueWhale : Whale // class child bluewhale inherit from parent whale  
-        {
-            public override string Color()
-            {
-               return "im whale my color is blue";
-            }
+        //public abstract class Whale: Fish // abstraction
+        //{
+        //    public abstract string Color();
+        //}
+        //public class BlueWhale : Whale // class child bluewhale inherit from parent whale  
+        //{
+        //    public override string Color()
+        //    {
+        //       return "im whale my color is blue";
+        //    }
   
-        }
+        //}
 
     }
 }

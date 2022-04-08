@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Animal
 {
-    public class Animal // parent class
+    public abstract class Animal // parent class
     {
         // properities
         public virtual string Name { get; set; } 
