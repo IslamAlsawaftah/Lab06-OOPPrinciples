@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 using Animal;
-using static Animal.Mammals;
+using Animal.Classes;
 
 namespace TestProject1
  
@@ -61,7 +61,7 @@ namespace TestProject1
         [Fact]
         public void TestIsAnimal()
         {
-            Assert.Equal("Lion",bigCats.Name);
+            Assert.True(typeof(Mammals).IsSubclassOf(typeof(Animal.Animal)));
         }
     }
 }

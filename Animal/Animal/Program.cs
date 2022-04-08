@@ -1,10 +1,5 @@
 ﻿using System;
-using static Animal.Fish;
-using static Animal.Insects;
-using static Animal.Insects.FlyingBugs;
-using static Animal.Mammals;
-using static Animal.Reptile;
-using static Animal.Birds;
+using Animal.Classes;
 
 namespace Animal
 {
