@@ -1,7 +1,8 @@
 ### Lab06-OOPPrinciples
 #### A zoo contains animals, and animals come in many different shapes and sizes. this project provide an implementation on oop principles(inheritance,abstraction,polymorphism,encapsulation) , and provide implementation on interfaces
 
-![](Animal/ClassDiagram1.jpg)
+### Digital UML drawing of zoo
+![](Animal/Animal/ClassDiagram2.jpg)
 
 ### OOP principles
 
@@ -26,7 +27,7 @@
 ![](interfaceimp.png)
 
 ### Updated diagram with interfaces mapped out.
-![](Animal/ClassDiagram.jpg)
+![](Animal/ClassDiagram2.jpg)
 
 
 
